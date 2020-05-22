@@ -1,0 +1,13 @@
+.pane {
+	-fx-background-color:pink;
+}
+
+.text-area {
+	-fx-font-size:10;
+	-fx-font-weight:bold;
+}
+
+.label {
+	-fx-text-fill:black;
+	-fx-background-color:silver;
+}
