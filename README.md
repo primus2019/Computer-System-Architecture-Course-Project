@@ -17,31 +17,31 @@ Primus
 
 ### 界面
 
-![1562166069119](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562166069119.png)
+![1562166069119](plots/fig-1.png)
 
 ### 说明
 
-![1562166377552](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562166377552.png)
+![1562166377552](plots/fig-2.png)
 
 界面包括六部分内容，包括内存，文件位置，内存分配方式，文件中的指令，指令对应的分配状态，操作所需按钮。
 
 ### 操作
 
-![1562166570110](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562166570110.png)
+![1562166570110](plots/fig-3.png)
 
 1. 在文件位置区域输入.txt文件所在绝对地址或相对地址（相对地址匹配难度较大，建议使用绝对地址），默认为src\simulator\main文件夹中的"test.txt"文件（**具体指令格式请参考该文件，最大内存为100 blocks**）。
 
    输入完成后敲击回车键，读取指令。
 
-![1562166825915](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562166825915.png)
+![1562166825915](plots/fig-4.png)
 
-![1562166851388](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562166851388.png)
+![1562166851388](plots/fig-5.png)
 
 2. 选择三种内存分配方式的一种，单击该按钮。分配方式区域相应改变（以indexed为例）。
 
-![1562166938805](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562166938805.png)
+![1562166938805](plots/fig-6.png)
 
-![1562166975476](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562166975476.png)
+![1562166975476](plots/fig-7.png)
 
 3. 单击auto自动执行指令，或单击step按钮手动执行指令。
 
@@ -51,15 +51,15 @@ Primus
 
    执行完毕后，auto, step, pause均不可用，defragmentation可用。
 
-![1562167215360](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562167215360.png)
+![1562167215360](plots/fig-8.png)
 
 （执行过程中）
 
-![1562167231873](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562167231873.png)
+![1562167231873](plots/fig-9.png)
 
 （执行结束后）
 
-![1562167252090](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562167252090.png)
+![1562167252090](plots/fig-10.png)
 
 4. 当defragmentation可用时，单击该按钮，可自动执行去碎片化操作。
 
@@ -118,7 +118,7 @@ Method类为内存的操作主体（，私有变量如下：
 
 ## 3. 文件结构
 
-![1562168089443](C:\Users\Primu\AppData\Roaming\Typora\typora-user-images\1562168089443.png)
+![1562168089443](plots/fig-11.png)
 
 ### Main类
 
